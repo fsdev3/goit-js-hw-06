@@ -22,7 +22,7 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-
+/* z3 */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -36,3 +36,5 @@ button {
   width: 100%;
   height: auto;
 }
+
+/* test */
