@@ -1,27 +1,29 @@
-const numbersEl = document.querySelector('[type="number"]');
-const createEl = document.querySelector('[data-create]');
-const destroyEl = document.querySelector('[data-destroy]');
-const boxesEl = document.querySelector('#boxes');
+// Maybe later
 
-createEl.addEventListener('click', onCreate);
-destroyEl.addEventListener('click', onDestroy);
+// const numbersEl = document.querySelector('[type="number"]');
+// const createEl = document.querySelector('[data-create]');
+// const destroyEl = document.querySelector('[data-destroy]');
+// const boxesEl = document.querySelector('#boxes');
 
-function onCreate() {
-  const value = Number(numbersEl.value);
-  if (value === 0) {
-    return;
-  }
-  createBoxes(value);
-}
+// createEl.addEventListener('click', onCreate);
+// destroyEl.addEventListener('click', onDestroy);
 
-function onDestroy() {}
+// function onCreate() {
+//   const value = Number(numbersEl.value);
+//   if (value === 0) {
+//     return;
+//   }
+//   createBoxes(value);
+// }
 
-function createBoxes(value) {
-  let size = 30;
-}
+// function onDestroy() {}
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
-}
+// function createBoxes(value) {
+//   let size = 30;
+// }
+
+// function getRandomHexColor() {
+//   return `#${Math.floor(Math.random() * 16777215)
+//     .toString(16)
+//     .padStart(6, 0)}`;
+// }
